@@ -1,0 +1,67 @@
+- title: "Atmospheric sulfur chemistry on terrestrial exoplanets: dependence on water vapor abundance, outgassing rate, and host star spectral type"
+  scope: "international"
+  type: "talk"
+  authors:
+    - name: "K. Yoshida"
+      self: true
+    - name: "H. Kurokawa"
+    - name: "Y. Kawashima"
+  venue: "JpGU-AGU Joint Meeting"
+  location: "Chiba"
+  date: "June 2026"
+
+- title: "地球型系外惑星の硫黄循環: 大気分光観測によるハビタビリティ制約可能性"
+  scope: "domestic"
+  type: "talk"
+  authors:
+    - name: "吉田 海渡"
+      self: true
+    - name: "黒川 宏之"
+    - name: "川島 由依"
+  venue: "系外惑星大気ワークショップ"
+  location: "滋賀"
+  date: "2026年3月"
+
+- title: "Sulfur Cycle on Terrestrial Exoplanets: Constraining Habitability through Spectroscopy"
+  scope: "international"
+  type: "poster"
+  authors:
+    - name: "K. Yoshida"
+      self: true
+    - name: "H. Kurokawa"
+  venue: "International Conference on Exoplanets and Planet Formation"
+  location: "Shanghai"
+  date: "Dec 2025"
+
+- title: "地球型系外惑星の硫黄循環: CO大気成因への示唆"
+  scope: "domestic"
+  type: "poster"
+  authors:
+    - name: "吉田 海渡"
+      self: true
+    - name: "黒川 宏之"
+  venue: "CO world全体会議"
+  location: "沖縄"
+  date: "2025年10月"
+
+- title: "地球型系外惑星の硫黄循環: 大気透過光観測によるハビタビリティ制約可能性"
+  scope: "domestic"
+  type: "talk"
+  authors:
+    - name: "吉田 海渡"
+      self: true
+    - name: "黒川 宏之"
+  venue: "日本惑星科学会秋季講演会"
+  location: "東京"
+  date: "2025年9月"
+
+- title: "Sulfur Cycle on Earth-like Exoplanets: Dependency on Host Stars and Surface Water Environments, and Implications for Constraining Habitability"
+  scope: "domestic"
+  type: "poster"
+  authors:
+    - name: "K. Yoshida"
+      self: true
+    - name: "H. Kurokawa"
+  venue: "日本地球惑星科学連合大会"
+  location: "千葉"
+  date: "2025年5月"

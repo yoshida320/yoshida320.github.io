@@ -1,189 +1,105 @@
+# `uv run rendercv render --watch _data/cv.yml --design assets/rendercv/design.yaml --locale-catalog assets/rendercv/locale.yaml --settings assets/rendercv/settings.yaml`
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Kaito Yoshida
+  headline:
+  location: Tokyo, Japan
+  email: yoshida-kaito320@g.ecc.u-tokyo.ac.jp
+  # photo: face.JPG
+  phone:
+  website: https://yoshida320.github.io
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+      username: yoshida320
+  custom_connections:
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+    education:
+      - institution: The University of Tokyo
+        area: Earth and Planetary Science
+        degree: MS
+        date:
+        start_date: 2025-04
+        end_date: present
+        location: Tokyo, Japan
+        web_en: "Apr 2025 – present, Master's Course, Department of Earth and Planetary Science, Graduate School of Science, The University of Tokyo"
+        web_ja: "2025年4月 – 現在, 東京大学 大学院理学系研究科 地球惑星科学専攻 修士課程"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "Expected graduation: Mar 2027"
+          # - "GPA: 3.75/4.00 (8.0 credits)"
+          - "Supervisor: Prof. Hiroyuki Kurokawa"
+      - institution: The University of Tokyo
+        area: Earth and Planetary Science
+        degree: BS
+        date:
+        start_date: 2021-04
+        end_date: 2025-03
+        location: Tokyo, Japan
+        summary:
+        web_en: "Mar 2025, Bachelor's Degree (Science), Department of Earth and Planetary Physics, Faculty of Science, The University of Tokyo"
+        web_ja: "2025年3月, 東京大学 理学部 地球惑星物理学科 学士（理学）"
         highlights:
-          - Description 1.
-          - Description 2.
-
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+          - "Thesis: 地球表層の硫黄循環の数理モデル"
+          # - "GPA: 3.18/4.00 (167.5 credits)"
+          - "Supervisor: Prof. Hiroyuki Kurokawa"
+    Fellowships and Funding:
+      - number: "Jan 2026 – present, Graduate School of Science Master’s student financial support program Rigakukei (Master’s Excellence) RA, The University of Tokyo"
+        web_ja: "2026年1月 – 現在, 東京大学 大学院理学系研究科 修士課程学生支援制度（理学系（修士卓越）RA）"
+    Research Assistantships (RA):
+      - number: "Jan 2026 – present, RA, Theory Group: Modeling of planetary CO environments"
+        web_ja: "2026年1月 – 現在, 卓越RA, 研究課題名「理論班：惑星CO環境のモデリング」"
+    Teaching Assistantships (TA):
+      - number: "Apr 2026 – present, Information"
+        web_ja: "2026年4月 – 現在, 科目名「情報」"
+      - number: "Apr 2026 – present, Active Learning of English for Science Students (ALESS)"
+        web_ja: "2026年4月 – 現在, 科目名「英語二列 (ALESS)」"
+      - number: "Oct 2025, Experiments in Earth Sciences"
+        web_ja: "2025年10月, 科目名「地球圏システム科学実験」"
+    International Presentations:
+      - number: "#underline[K. Yoshida], H. Kurokawa, Y. Kawashima, Atmospheric sulfur chemistry on terrestrial exoplanets: dependence on water vapor abundance, outgassing rate, and host star spectral type, JpGU-AGU Joint Meeting, Oral, Chiba, May 2026."
+        web_title: "Atmospheric sulfur chemistry on terrestrial exoplanets: dependence on water vapor abundance, outgassing rate, and host star spectral type"
+        web_scope: "international"
+        web_type: "talk"
+        web_authors_html: "<u>K. Yoshida</u>, H. Kurokawa, Y. Kawashima"
+        web_venue: "JpGU-AGU Joint Meeting"
+        web_location: "Chiba"
+        web_date: "May 2026"
+      - number: "#underline[K. Yoshida], H. Kurokawa, Sulfur Cycle on Terrestrial Exoplanets: Constraining Habitability through Spectroscopy, International Conference on Exoplanets and Planet Formation, Poster, Shanghai, Dec 2025."
+        web_title: "Sulfur Cycle on Terrestrial Exoplanets: Constraining Habitability through Spectroscopy"
+        web_scope: "international"
+        web_type: "poster"
+        web_authors_html: "<u>K. Yoshida</u>, H. Kurokawa"
+        web_venue: "International Conference on Exoplanets and Planet Formation"
+        web_location: "Shanghai"
+        web_date: "Dec 2025"
+    Domestic Presentations:
+      - number: "#underline[吉田 海渡], 黒川 宏之, 川島 由依, 地球型系外惑星の硫黄循環: 大気分光観測によるハビタビリティ制約可能性, 系外惑星大気ワークショップ, 口頭, 滋賀, 2026年3月."
+        web_title: "地球型系外惑星の硫黄循環: 大気分光観測によるハビタビリティ制約可能性"
+        web_scope: "domestic"
+        web_type: "talk"
+        web_authors_html: "<u>吉田 海渡</u>, 黒川 宏之, 川島 由依"
+        web_venue: "系外惑星大気ワークショップ"
+        web_location: "滋賀"
+        web_date: "2026年3月"
+      - number: "#underline[吉田 海渡], 黒川 宏之, 地球型系外惑星の硫黄循環: CO大気成因への示唆, CO world全体会議, ポスター, 沖縄, 2025年10月."
+        web_title: "地球型系外惑星の硫黄循環: CO大気成因への示唆"
+        web_scope: "domestic"
+        web_type: "poster"
+        web_authors_html: "<u>吉田 海渡</u>, 黒川 宏之"
+        web_venue: "CO world全体会議"
+        web_location: "沖縄"
+        web_date: "2025年10月"
+      - number: "#underline[吉田 海渡], 黒川 宏之, 地球型系外惑星の硫黄循環: 大気透過光観測によるハビタビリティ制約可能性, 日本惑星科学会秋季講演会, 口頭, 東京, 2025年9月."
+        web_title: "地球型系外惑星の硫黄循環: 大気透過光観測によるハビタビリティ制約可能性"
+        web_scope: "domestic"
+        web_type: "talk"
+        web_authors_html: "<u>吉田 海渡</u>, 黒川 宏之"
+        web_venue: "日本惑星科学会秋季講演会"
+        web_location: "東京"
+        web_date: "2025年9月"
+      - number: "#underline[K. Yoshida], H. Kurokawa, Sulfur Cycle on Earth-like Exoplanets: Dependency on Host Stars and Surface Water Environments, and Implications for Constraining Habitability, 日本地球惑星科学連合大会, Poster, 千葉, 2025年5月."
+        web_title: "Sulfur Cycle on Earth-like Exoplanets: Dependency on Host Stars and Surface Water Environments, and Implications for Constraining Habitability"
+        web_scope: "domestic"
+        web_type: "poster"
+        web_authors_html: "<u>K. Yoshida</u>, H. Kurokawa"
+        web_venue: "日本地球惑星科学連合大会"
+        web_location: "千葉"
+        web_date: "2025年5月"

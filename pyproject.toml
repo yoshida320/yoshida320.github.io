@@ -1,0 +1,13 @@
+[project]
+name = "yoshida320-github-io"
+version = "2026.06.03"
+requires-python = ">=3.12"
+dependencies = [
+  "nbconvert",
+  "pyyaml",
+  "rendercv[full]",
+  "scholarly",
+]
+
+[tool.uv]
+package = false

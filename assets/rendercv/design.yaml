@@ -11,3 +11,5 @@ design:
     photo_position: right
   sections:
     show_time_spans_in: []
+  templates:
+    date_range: START_DATE–END_DATE

@@ -1,0 +1,19 @@
+heading: "Licenses and Qualifications（免許・資格）"
+qualifications:
+  - name: "普通自動車免許"
+    date: "2021年9月"
+  - name: "TOEIC Listening & Reading Test 940点"
+    date: "2022年4月"
+  - name: "生物分類技能検定3級"
+    date: "2022年9月"
+
+miscellaneous_heading: "Miscellaneous（その他の経験）"
+miscellaneous:
+  - name: "東京大学松尾・岩澤研究室 Deep Learning基礎講座 2026 Spring"
+    date: "2026年"
+  - name: "東京大学松尾・岩澤研究室 グローバル消費インテリジェンス寄付講座（GCI) 2025 Winter"
+    date: "2025年"
+  - name: "国立天文台科学研究部春の学校2024"
+    date: "2024年"
+  - name: "東京大学附属図書館 総合図書館ジュニア・スタッフ"
+    date: "2022年–2023年"

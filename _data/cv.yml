@@ -40,17 +40,19 @@ cv:
           - "Thesis: 地球表層の硫黄循環の数理モデル"
           # - "GPA: 3.18/4.00 (167.5 credits)"
           - "Supervisor: Prof. Hiroyuki Kurokawa"
-    Fellowships and Funding:
+    Fellowships and Research Resources:
       - number: "Jan 2026 – present, Graduate School of Science Master’s student financial support program Rigakukei (Master’s Excellence) RA, The University of Tokyo"
         web_ja: "2026年1月 – 現在, 東京大学 大学院理学系研究科 修士課程学生支援制度（理学系（修士卓越）RA）"
+      - number: "Jul 2026 – Mar 2027, NAOJ CfCA Personal Computer Cluster (PCC), accepted research project: 「系外地球型惑星の硫黄循環と観測的指標」"
+        web_ja: "2026年7月 – 2027年3月, 国立天文台 CfCA PCC（計算サーバ）共同利用採択課題「系外地球型惑星の硫黄循環と観測的指標」"
     Research Assistantships (RA):
       - number: "Jan 2026 – present, RA, Theory Group: Modeling of planetary CO environments"
         web_ja: "2026年1月 – 現在, 卓越RA, 研究課題名「理論班：惑星CO環境のモデリング」"
     Teaching Assistantships (TA):
-      - number: "Apr 2026 – present, Information"
-        web_ja: "2026年4月 – 現在, 科目名「情報」"
-      - number: "Apr 2026 – present, Active Learning of English for Science Students (ALESS)"
-        web_ja: "2026年4月 – 現在, 科目名「英語二列 (ALESS)」"
+      - number: "Apr 2026 – Jul 2026, Information"
+        web_ja: "2026年4月 – 2026年7月, 科目名「情報」"
+      - number: "Apr 2026 – Jul 2026, Active Learning of English for Science Students (ALESS)"
+        web_ja: "2026年4月 – 2026年7月, 科目名「英語二列 (ALESS)」"
       - number: "Oct 2025, Experiments in Earth Sciences"
         web_ja: "2025年10月, 科目名「地球圏システム科学実験」"
     International Presentations:

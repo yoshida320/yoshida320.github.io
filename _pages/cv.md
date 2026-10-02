@@ -9,7 +9,7 @@ cv_pdf: /assets/rendercv/rendercv_output/Kaito_Yoshida_CV.pdf
 
 {% if page.cv_pdf %}
 
-  <div class="cv-page-pdf-link">
+<div class="cv-page-pdf-link">
     <a
       {% if page.cv_pdf contains '://' %}
         href="{{ page.cv_pdf }}"
@@ -27,7 +27,7 @@ cv_pdf: /assets/rendercv/rendercv_output/Kaito_Yoshida_CV.pdf
 {% endif %}
 
 {% assign cv_sections = site.data.cv.cv.sections %}
-{% assign cv_page_sections = "education|Education（学歴）|ul,Fellowships and Research Resources|Fellowships and Research Resources（採択・研究資源）|ol,Research Assistantships (RA)|Research Assistantships (RA)|ol,Teaching Assistantships (TA)|Teaching Assistantships (TA)|ol" | split: "," %}
+{% assign cv_page_sections = "education|Education（学歴）|ul,Fellowships and Research Resources|Fellowships and Research Resources（採択・研究資源）|ol,Research Assistantships (RA)|Research Assistantships (RA)|ol,Teaching Assistantships (TA)|Teaching Assistantships (TA)|ol,Service|Service（運営）|ol" | split: "," %}
 
 <div class="cv-web">
   {% for section_entry in cv_page_sections %}

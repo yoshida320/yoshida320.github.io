@@ -6,9 +6,11 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - ".ruby-version"
       - .github/workflows/copilot-setup-steps.yml
   pull_request:
     paths:
+      - ".ruby-version"
       - .github/workflows/copilot-setup-steps.yml
 
 jobs:
@@ -30,7 +32,6 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
           bundler-cache: true
 
       - name: Setup Python

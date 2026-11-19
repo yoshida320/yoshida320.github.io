@@ -7,6 +7,7 @@ on:
       - main
       - v1.0-dev
     paths:
+      - ".ruby-version"
       - "_config.yml"
       - "_data/**"
       - "_pages/**"
@@ -23,6 +24,7 @@ on:
       - main
       - v1.0-dev
     paths:
+      - ".ruby-version"
       - "_config.yml"
       - "_data/**"
       - "_pages/**"
@@ -44,7 +46,6 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
           bundler-cache: true
 
       - name: Run upgrade audit 🧪
